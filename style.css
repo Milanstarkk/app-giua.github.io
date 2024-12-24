@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 599px) {
+
+    .navbar-textlogo {
+        font-size: 30px;
+        margin: 10px;
+        margin-left: 20px;
+        position: fixed;
+    }
+
+    .imglogo {
+        width: 60px;
+    }
+
+    .title {
+        font-size: 50px;
+        margin-top: 100px;
+        padding: 8px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+
+    .downloadButton {
+        margin-top: 100px;
+        font-size: 40px;
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+    .menuMobile {
+        font-size: 30px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+    .navbar-textlogo {
+        font-size: 30px;
+        margin: 10px;
+        margin-left: 20px;
+        position: fixed;
+    }
+
+    .imglogo {
+        width: 60px;
+    }
+
+    .title {
+        font-size: 60px;
+        margin-top: 100px;
+        padding: 8px;
+    }
+
+    .subtitle {
+        font-size: 30px;
+    }
+
+    .downloadButton {
+        margin-top: 100px;
+        font-size: 50px;
+    }
+
+    .nav-list{
+        display: none;
+    }
+    
+    .menuMobile {
+        font-size: 30px;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px){
+
+    .navbar-textlogo {
+        font-size: 30px;
+        margin: 10px;
+        margin-left: 20px;
+        position: fixed;
+    }
+
+    .imglogo {
+        width: 70px;
+    }
+
+    .title {
+        font-size: 70px;
+        margin-top: 100px;
+        padding: 8px;
+    }
+
+    .subtitle {
+        font-size: 40px;
+    }
+
+    .downloadButton {
+        margin-top: 100px;
+        font-size: 60px;
+    }
+    
+    .nav-list{
+        display: none;
+    }
+
+    .menuMobile {
+        font-size: 40px;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1600px){
+
+    .navbar-textlogo {
+        font-size: 40px;
+        margin: 15px;
+        margin-left: 25px;
+        position: fixed;
+    }
+
+    .imglogo {
+        width: 85px;
+    }
+
+    .title {
+        font-size: 80px;
+        margin-top: 100px;
+        padding: 8px;
+    }
+
+    .subtitle {
+        font-size: 50px;
+    }
+
+    .downloadButton {
+        margin-top: 100px;
+        font-size: 70px;
+    }
+
+    .nav-list {
+        list-style: none; 
+      }
+
+    .nav-list li {
+        display: inline-block;
+        padding: 0px 20px;
+    }
+
+    .nav-list li a {
+        text-decoration: none;
+        font-size: 30px;
+        transition: all 0.3s ease 0s;
+    }
+
+    .menuMobile {
+        display: none;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1601px) {
+    
+    .navbar-textlogo {
+        font-size: 40px;
+        margin: 20px;
+        margin-left: 25px;
+        position: fixed;
+    }
+
+    .imglogo {
+        width: 100px;
+        padding: 5px;
+        margin-left: 150px;
+    }
+
+    .title {
+        font-size: 100px;
+        margin-top: 100px;
+    }
+
+    .subtitle {
+        font-size: 50px;
+    }
+
+    .downloadButton {
+        margin-top: 100px;
+        font-size: 80px;
+    }
+
+    .nav-list {
+        list-style: none; 
+      }
+
+    .nav-list li {
+        display: inline-block;
+        padding: 0px 20px;
+    }
+
+    .nav-list li a {
+        text-decoration: none;
+        font-size: 30px;
+        transition: all 0.3s ease 0s;
+    }
+
+    .menuMobile {
+        display: none;
+    }
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease 0s;
+}
+
+.container-header {
+    text-align: center;
+    align-items: center;
+}
+
+
+.navbar-textlogo {
+    font-family: Titillium Web;
+    font-weight: 600;
+    justify-content: left;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: all 0.3s ease 0s;
+}
+
+.menuMobile {
+    cursor: pointer;
+}
+
+.imglogo {
+    height: auto;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-list li a {
+    font-family: Titillium Web;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.title {
+    font-family: Titillium Web;
+    font-weight: 600;
+    color: rgb(75, 74, 74);
+    transition: all 0.3s ease 0s;
+}
+
+.subtitle {
+    font-family: Titillium Web;
+    font-weight: 500;
+    color: rgb(75, 74, 74);
+    transition: all 0.3s ease 0s;
+}
+
+
+
+.downloadButton {
+    cursor: pointer;
+    border: none;
+    font-family: Titillium Web;
+    font-weight: 600;
+    outline: none;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 15px;
+    white-space: normal;
+    transition: all 0.3s ease 0s;
+}
+
+.downloadButton:hover {
+    background-color: #1d5a97 !important;
+}
