@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Giua App</title>
+    <title>Giua App • Home</title>
     <link rel="icon" type="image/x-icon" href="img/logo-giuaschool.svg">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -21,10 +21,10 @@
                 <a class="navbar-textlogo" href="/">Giua App</a>
             </div>
             <ul class="nav-list" id="menuList">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#download">Download</a></li>
-                <li><a href="#github">GitHub</a></li>
+                <li><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="#about"><i class="fa-solid fa-circle-info"></i> About</a></li>
+                <li><a href="#download"><i class="fa-solid fa-download"></i> Download</a></li>
+                <li><a target="_blank" href="https://github.com/Milanstarkk/Giua-App"><i class="fa-brands fa-github"></i> GitHub</a></li>
             </ul>
             <div class="menuMobile" id="hamburgerIcon">
                 <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
@@ -37,10 +37,37 @@
             <p class="subtitle">L'applicazione non ufficiale del registro scolastico "giua@school"</p>
             <div>
                 <a href="/" id="download-button" class="downloadButton blue"><i class="fa-solid fa-download"></i> SCARICA</a>
-                <p id="latest-version" style="font-family: Titillium Web;font-weight: 500;font-size: 20px; color: rgb(75, 74, 74);">Latest release: </p>
+                <p id="latest-version" style="font-family: Titillium Web;font-weight: 500;font-size: 20px; color: rgb(75, 74, 74); margin-bottom: 250px;">Latest release: </p>
             </div>
         </div>
     </header>
+
+    <section>
+        <div class="container-screen">
+            <div class="rectangle">
+                <img src="img/rect-lessons.png" class="rect-img">
+                <div class="rect-textcontainer">
+                    <h1 class="rect-title">Gestisci la didattica in modo semplice e intuitivo</h1>
+                    <p class="rect-text">La sezione Lezioni offre una panoramica completa sull'orario, le attività svolte, i docenti coinvolti e gli argomenti trattati, garantendo una gestione strutturata delle materie.</p>
+                </div>
+            </div>
+            <div class="rectangle">
+                <div class="rect-textcontainer">
+                    <h1 class="rect-title">Rimani sempre aggiornato</h1>
+                    <p class="rect-text">Qui ricevi comunicazioni ufficiali, informazioni su compiti assegnati, verifiche imminenti e altre notizie rilevanti, per una gestione tempestiva e completa delle attività scolastiche.</p>
+                </div>
+                <img src="img/rect-news.png" class="rect-img rect-right">
+            </div>
+            <div class="rectangle">
+                <img src="img/rect-settings.png" class="rect-img">
+                <div class="rect-textcontainer">
+                    <h1 class="rect-title">Personalizza la tua esperienza</h1>
+                    <p class="rect-text">Qui puoi modificare e personalizzare il tema dell'app, gestire le notifiche in base alle tue preferenze e abilitare funzionalità speciali per ottimizzare l'uso quotidiano e adattarlo alle tue esigenze.</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
     
 </body>
 </html>

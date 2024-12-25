@@ -8,7 +8,7 @@
         font-size: 30px;
         margin: 10px;
         margin-left: 20px;
-        position: fixed;
+        position: absolute;
     }
 
     .imglogo {
@@ -28,7 +28,7 @@
 
     .downloadButton {
         margin-top: 100px;
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .nav-list{
@@ -40,12 +40,14 @@
         display: block;
         top: 60px;
         left: 0;
-        right: 0;
+        right: 0px;
         flex-direction: column;
         text-align: center;
+        align-items: center;
         gap: 0;
         background-color: #2d71b7;
         overflow: hidden;
+        padding: 0;
         
     }
     .nav-list.active li {
@@ -61,16 +63,34 @@
         font-size: 30px;
     }
 
+    .rectangle {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rectangle img {
+        width: 100% !important;
+    }
+
+    .rect-title {
+        font-size: 30px;
+    }
+
+    .rect-text {
+        font-size: 20px;
+    }
+
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) and (max-width: 767px) {
+@media only screen and (min-width: 600px) and (max-width: 768px) {
 
     .navbar-textlogo {
         font-size: 30px;
         margin: 10px;
         margin-left: 20px;
-        position: fixed;
+        position: absolute;
     }
 
     .imglogo {
@@ -89,7 +109,7 @@
 
     .downloadButton {
         margin-top: 100px;
-        font-size: 50px;
+        font-size: 30px;
     }
 
     .nav-list{
@@ -101,12 +121,14 @@
         display: block;
         top: 60px;
         left: 0;
-        right: 0;
+        right: 0px;
         flex-direction: column;
         text-align: center;
+        align-items: center;
         gap: 0;
         background-color: #2d71b7;
         overflow: hidden;
+        padding: 0;
         
     }
     .nav-list.active li {
@@ -121,6 +143,24 @@
         font-size: 30px;
     }
 
+    .rectangle {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rectangle img {
+        width: 100% !important;
+    }
+
+    .rect-title {
+        font-size: 30px;
+    }
+
+    .rect-text {
+        font-size: 20px;
+    }
+
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -130,7 +170,7 @@
         font-size: 30px;
         margin: 10px;
         margin-left: 20px;
-        position: fixed;
+        position: absolute;
     }
 
     .imglogo {
@@ -149,7 +189,11 @@
 
     .downloadButton {
         margin-top: 100px;
-        font-size: 60px;
+        font-size: 30px;
+    }
+
+    .nav-list{
+        display: none;
     }
     
     .nav-list.active {
@@ -157,12 +201,14 @@
         display: block;
         top: 60px;
         left: 0;
-        right: 0;
+        right: 0px;
         flex-direction: column;
         text-align: center;
+        align-items: center;
         gap: 0;
         background-color: #2d71b7;
         overflow: hidden;
+        padding: 0;
         
     }
     .nav-list.active li {
@@ -177,20 +223,38 @@
         font-size: 30px;
     }
 
+    .rectangle {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rectangle img {
+        width: 100% !important;
+    }
+
+    .rect-title {
+        font-size: 40px;
+    }
+
+    .rect-text {
+        font-size: 30px;
+    }
+
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1600px){
 
     .navbar-textlogo {
-        font-size: 40px;
+        font-size: 35px;
         margin: 15px;
         margin-left: 25px;
-        position: fixed;
+        position: absolute;
     }
 
     .imglogo {
-        width: 85px;
+        width: 75px;
     }
 
     .title {
@@ -205,7 +269,7 @@
 
     .downloadButton {
         margin-top: 100px;
-        font-size: 70px;
+        font-size: 35px;
     }
 
     .nav-list {
@@ -219,12 +283,20 @@
 
     .nav-list li a {
         text-decoration: none;
-        font-size: 30px;
+        font-size: 25px;
         transition: all 0.3s ease 0s;
     }
 
     .menuMobile {
         display: none;
+    }
+
+    .rect-title {
+        font-size: 40px;
+    }
+
+    .rect-text {
+        font-size: 30px;
     }
 
 }
@@ -236,27 +308,26 @@
         font-size: 40px;
         margin: 20px;
         margin-left: 25px;
-        position: fixed;
+        position: absolute;
     }
 
     .imglogo {
         width: 100px;
-        padding: 5px;
         margin-left: 150px;
     }
 
     .title {
-        font-size: 100px;
+        font-size: 80px;
         margin-top: 100px;
     }
 
     .subtitle {
-        font-size: 50px;
+        font-size: 30px;
     }
 
     .downloadButton {
         margin-top: 100px;
-        font-size: 80px;
+        font-size: 40px;
     }
 
     .nav-list {
@@ -276,6 +347,14 @@
 
     .menuMobile {
         display: none;
+    }
+
+    .rect-title {
+        font-size: 40px;
+    }
+
+    .rect-text {
+        font-size: 30px;
     }
 
 }
@@ -294,11 +373,30 @@
     align-items: center;
 }
 
+.rectangle{
+    display: flex;
+    background-color: #e0e0e0;
+    box-shadow: 5px 5px 10px rgba(0.3, 0.3, 0.3, 0.3);
+    border-radius: 15px;
+    padding: 50px 50px;
+    margin: 60px;
+    margin-top: 80px;
+    transition: all 0.3s ease 0s;
+    align-items: center;
+}
+.rectangle img {
+    max-width: 500px;
+    border-radius: 15px;
+    margin: 20px;
+    height: auto;
+    transition: all 0.3s ease 0s;
+    
+}
+
 
 .navbar-textlogo {
     font-family: Titillium Web;
     font-weight: 600;
-    justify-content: left;
     text-decoration: none;
     cursor: pointer;
     margin-left: 20px;
@@ -334,6 +432,26 @@
     transition: all 0.3s ease 0s;
 }
 
+
+.rect-right {
+    display: flex;
+    justify-content: space-between;
+    right: 0 !important;
+}
+
+.rect-textcontainer {
+    margin: 50px;
+}
+
+.rect-title {
+    font-family: Titillium Web;
+    font-weight: 600;
+}
+
+.rect-text {
+    font-family: Titillium Web;
+    font-weight: 500;
+}
 
 
 .downloadButton {
