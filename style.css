@@ -66,10 +66,15 @@
     .rectangle {
         flex-direction: column;
         align-items: center;
+        margin: 20px !important;
     }
 
     .rectangle img {
         width: 100% !important;
+    }
+
+    .rect-textcontainer {
+        margin: 10px !important;
     }
 
     .rect-title {
