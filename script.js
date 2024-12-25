@@ -1,5 +1,5 @@
 const repoOwner = "Milanstarkk";
-const repoName = "Giua-App";  
+const repoName = "Giua-App"; 
 
 async function fetchLatestRelease() {
     try {
@@ -34,3 +34,11 @@ async function fetchLatestRelease() {
 }
 
 fetchLatestRelease();
+
+let menuList = document.getElementById("menuList")
+
+function toggleMenu() {
+    const menuList = document.getElementById("menuList");
+    menuList.classList.toggle("active");
+}
+

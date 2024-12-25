@@ -35,7 +35,29 @@
         display: none;
     }
 
+    .nav-list.active {
+        position: absolute;
+        display: block;
+        top: 60px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+        background-color: #2d71b7;
+        overflow: hidden;
+        
+    }
+    .nav-list.active li {
+        padding: 20px;
+        text-decoration: none;
+        list-style: none;
+        transition: all 0.3s ease 0s;
+    }
+
+
     .menuMobile {
+        display: block;
         font-size: 30px;
     }
 
@@ -73,8 +95,29 @@
     .nav-list{
         display: none;
     }
+
+    .nav-list.active {
+        position: absolute;
+        display: block;
+        top: 60px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+        background-color: #2d71b7;
+        overflow: hidden;
+        
+    }
+    .nav-list.active li {
+        padding: 20px;
+        text-decoration: none;
+        list-style: none;
+        transition: all 0.3s ease 0s;
+    }
     
     .menuMobile {
+        display: block;
         font-size: 30px;
     }
 
@@ -109,12 +152,29 @@
         font-size: 60px;
     }
     
-    .nav-list{
-        display: none;
+    .nav-list.active {
+        position: absolute;
+        display: block;
+        top: 60px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+        background-color: #2d71b7;
+        overflow: hidden;
+        
     }
-
+    .nav-list.active li {
+        padding: 20px;
+        text-decoration: none;
+        list-style: none;
+        transition: all 0.3s ease 0s;
+    }
+    
     .menuMobile {
-        font-size: 40px;
+        display: block;
+        font-size: 30px;
     }
 
 }
