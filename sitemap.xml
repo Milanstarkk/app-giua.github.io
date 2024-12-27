@@ -4,10 +4,12 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
 <url>
   <loc>https://app-giua.is-a.dev/</loc>
-  <lastmod>2024-12-26</lastmod>
-  <priority>1.20</priority>
+  <lastmod>2024-12-27T16:19:32+00:00</lastmod>
 </url>
+
 
 </urlset>
