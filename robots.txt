@@ -1,4 +1,2 @@
-User-agent: *
-Disallow: 
-Disallow: /
+User-agent: *
 Sitemap: https://app-giua.is-a.dev/sitemap.xml
