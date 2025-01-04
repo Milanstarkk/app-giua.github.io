@@ -437,6 +437,20 @@
     transition: all 0.3s ease 0s;
 }
 
+.ab-title {
+    font-family: Titillium Web;
+    font-weight: 400;
+    color: rgb(75, 74, 74);
+    transition: all 0.3s ease 0s;
+}
+
+.ab-subtitle {
+    font-family: Titillium Web;
+    font-weight: 300;
+    color: rgb(75, 74, 74);
+    transition: all 0.3s ease 0s;
+}
+
 
 .rect-right {
     display: flex;
